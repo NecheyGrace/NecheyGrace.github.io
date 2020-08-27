@@ -1,0 +1,107 @@
+html, body{
+    height: 100%;
+}
+*{
+    margin: 0px;
+    ;
+}
+.topnav{
+    background-color: red;
+    overflow: hidden;
+    padding: 14px;
+}
+a, li{
+    list-style-type: none;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+
+}
+.topnav a{
+    padding: 14px;
+}
+.topnav a:hover{
+    background-color: yellow;
+    color: black;
+}
+div.hero-image{
+background-image: url(jollof rice.jpeg);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+div.hero-txt{
+    text-align: center;
+    padding-top: 20%;
+    color: red;
+}
+span{
+    color: olive;
+}
+div.hero-text h1{
+    font-size: 3em;
+}
+button{
+    color: #f2f2f2;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.description{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.description p i{
+    color: olive;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.column{
+    float:left;
+    width: 33.3%;
+}
+.column img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    text-align: center;
+    padding: 30px;
+    text-transform: capitalize;
+}
+.row::after{
+    contain: none;
+    clear: both;
+    display: table;
+}
+a, li{
+    color: olivedrab;
+}
+footer{
+    background-color: orangered;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: seagreen;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+}
+  
